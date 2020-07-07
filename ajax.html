@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Get method-->
+    <h1>Input form by Get method</h1>
+    <form>
+        <label>Surname:</label> <br><br>
+        <input type="text" id="userSurnameGet"> <br><br>
+
+        <label>Name:</label> <br><br>
+        <input type="text" id="userNameGet"> <br><br>
+
+        <label>Age:</label> <br><br>
+        <input type="text" id="userAgeGet"> <br><br>
+
+        <label>Place:</label> <br><br>
+        <input type="text" id="userPlaceGet"> <br><br>
+
+        <input type="button" value="send to server" onclick="sendDataByGet()">
+    </form>
+
+    <!--Post method-->
+    <h1>Input form by Ppost method</h1>
+    <form>
+        <label>Surname:</label> <br><br>
+        <input type="text" id="userSurnamePost"> <br><br>
+
+        <label>Name:</label> <br><br>
+        <input type="text" id="userNamePost"> <br><br>
+
+        <label>Age:</label> <br><br>
+        <input type="text" id="userAgePost"> <br><br>
+
+        <label>Place:</label> <br><br>
+        <input type="text" id="userPlacePost"> <br><br>
+
+        <input type="button" value="send to server" onclick="sendDataByPost()">
+    </form>
+
+
+    <!--js file-->
+    <script src="task.js"></script>
+</body>
+
+</html>
